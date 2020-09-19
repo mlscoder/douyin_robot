@@ -105,6 +105,7 @@ def main():
     debug.dump_device_info()
     screenshot.check_screenshot()
 
+
     while True:
         next_page()
 
