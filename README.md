@@ -9,7 +9,7 @@
 2. 加入下载功能
 3. 加入广告区分
 4. 新功能开发中ing
-5. 推荐使用模拟器（安卓模拟器）
+5. 真机改用模拟器 我使用的是[逍遥模拟器](https://www.xyaz.cn/)
 
 ## 原理
 * 打开模拟器《抖音短视频》APP，进入主界面
@@ -17,7 +17,7 @@
 * 请求 [图文识别 API](https://cloud.baidu.com/product/ocr_general) 判断当前页面是否是广告
 * 请求 [人脸识别 API](https://cloud.baidu.com/product/face) 判断当前页面人脸性别、年龄、颜值打分
 * 当颜值大于门限值 BEAUTY_THRESHOLD（个人定义阈值）时，下载视频
-* 将安卓系统下载的视频下载到window本地
+* 将安卓系统下载的视频下载到window本地，并且删除原视频
 * 重新进行第一步操作
 
 ## 使用教程
